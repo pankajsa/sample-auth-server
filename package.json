@@ -1,0 +1,23 @@
+{
+  "name": "sample-auth-server",
+  "version": "1.0.0",
+  "description": "Sample Auth Server to handle oauth flows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "oauth2"
+  ],
+  "author": "Pankaj Arora",
+  "license": "ISC",
+  "dependencies": {
+    "flow-bin": "^0.98.0",
+    "jsonwebtoken": "^8.5.1",
+    "restify": "^8.3.1"
+  }
+}
